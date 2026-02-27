@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-27T21:58:16 IST" name="Default suite" finished-at="2026-02-27T21:58:44 IST" duration-ms="28020">
+    <groups>
+    </groups>
+    <test started-at="2026-02-27T21:58:16 IST" name="Default test" finished-at="2026-02-27T21:58:44 IST" duration-ms="28020">
+      <class name="cart.CartTest">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:cart.CartTest@47a5b70d]" started-at="2026-02-27T21:58:16 IST" name="openApplication" finished-at="2026-02-27T21:58:20 IST" duration-ms="4742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="Cart_VerifyProductQuantityUpdate()[pri:0, instance:cart.CartTest@47a5b70d]" started-at="2026-02-27T21:58:20 IST" name="Cart_VerifyProductQuantityUpdate" finished-at="2026-02-27T21:58:35 IST" duration-ms="14951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cart_VerifyProductQuantityUpdate -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:cart.CartTest@47a5b70d]" started-at="2026-02-27T21:58:35 IST" name="openApplication" finished-at="2026-02-27T21:58:39 IST" duration-ms="3337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="Cart_VerifyProductRemovalFromCart()[pri:0, instance:cart.CartTest@47a5b70d]" started-at="2026-02-27T21:58:39 IST" name="Cart_VerifyProductRemovalFromCart" finished-at="2026-02-27T21:58:44 IST" duration-ms="4913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cart_VerifyProductRemovalFromCart -->
+      </class> <!-- cart.CartTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
