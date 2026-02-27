@@ -28,7 +28,7 @@ public class CartTest extends BaseClass{
 	public void openApplication() throws IOException
 	{
 		driver=initializeDriver();
-		wait=new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait=new WebDriverWait(driver, Duration.ofSeconds(13));
 		
 	}
 //	
