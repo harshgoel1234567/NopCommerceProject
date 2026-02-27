@@ -21,8 +21,9 @@ public class CartTest extends BaseClass{
 	
 	private WebDriver driver;
 	private WebDriverWait wait;
+
 	Action a= new Action();
-	//ftyfth
+	
 	@BeforeMethod
 	public void openApplication() throws IOException
 	{
