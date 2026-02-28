@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public interface ActionInterface {
-
+//sddfdfdfdfdf
 	void scrollByVisibilityOfElement(WebDriver driver, WebElement element);
 
 	void click(WebDriver driver, WebElement ele);
@@ -63,8 +63,6 @@ public interface ActionInterface {
 	String screenShot(WebDriver driver, String filename);
 
 	String getCurrentTime();
-
-
 	void sendKeys(WebElement ele, String text);
 
 }
