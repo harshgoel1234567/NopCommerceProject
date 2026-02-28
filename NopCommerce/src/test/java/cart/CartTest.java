@@ -31,39 +31,39 @@ public class CartTest extends BaseClass{
 		wait=new WebDriverWait(driver, Duration.ofSeconds(10));
 		
 	}
-//	
-//	@Test
-//	public void Cart_VerifyProductAddedSuccessfully()
-//	{
-//
-//		HomePage homePage=new HomePage(driver, wait);
-//		
-//	    
-//			ProductsPage productsPage=new ProductsPage(driver,wait);
-//			ProductDetailPage productDetailPage=new ProductDetailPage(driver,wait);
-//			 homePage.ClickOnDesktops();
-//			List<WebElement>productList=productsPage.ReturnProductList();
-//			
-//			int m=productList.size();
-//			 WebElement Product=productList.get(3);
-//			 
-//			 String expectedProductName = Product.getText();
-//			
-//	
-//	
-//		    Product.click();
-//	
-//		    String actualProductName =productDetailPage.getproductHeading();
-//	
-//		   
-//	
-//		    Assert.assertEquals(actualProductName, expectedProductName,
-//		            "Incorrect product details page opened.");
-//		    productDetailPage.clickAddToCartButton();
-//		    Assert.assertTrue(productDetailPage.successMessageForProductAddToart());
-//		  
-//	}
-//	
+	
+	@Test
+	public void Cart_VerifyProductAddedSuccessfully()
+	{
+
+		HomePage homePage=new HomePage(driver, wait);
+		
+	    
+			ProductsPage productsPage=new ProductsPage(driver,wait);
+			ProductDetailPage productDetailPage=new ProductDetailPage(driver,wait);
+			 homePage.ClickOnDesktops();
+			List<WebElement>productList=productsPage.ReturnProductList();
+			
+			int m=productList.size();
+			 WebElement Product=productList.get(3);
+			 
+			 String expectedProductName = Product.getText();
+			
+	
+	
+		    Product.click();
+	
+		    String actualProductName =productDetailPage.getproductHeading();
+	
+		   
+	
+		    Assert.assertEquals(actualProductName, expectedProductName,
+		            "Incorrect product details page opened.");
+		    productDetailPage.clickAddToCartButton();
+		    Assert.assertTrue(productDetailPage.successMessageForProductAddToart());
+		  
+	}
+	
 	@Test
 	public void Cart_VerifyProductQuantityUpdate() throws InterruptedException
 	{
@@ -153,6 +153,6 @@ public class CartTest extends BaseClass{
 //		driver.close();
 //		
 //	}
-	
+	//thats good test cases
 	
 }
