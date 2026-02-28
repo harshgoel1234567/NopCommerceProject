@@ -20,7 +20,6 @@ import base.BaseClass;
 import pageobjects.HomePage;
 import pageobjects.ProductDetailPage;
 import pageobjects.ProductsPage;
-import resources.Base;
 
 public class ProductsTest extends BaseClass{
 	private WebDriver driver;
