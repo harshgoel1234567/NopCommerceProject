@@ -111,11 +111,7 @@
 			<version>2.0.13</version>
 		</dependency>
 
-    <dependency>
-    	<groupId>Demo</groupId>
-    	<artifactId>Cucumber-Assignment</artifactId>
-    	<version>0.0.1-SNAPSHOT</version>
-    </dependency>
+    
 	</dependencies>
 
 	<build>
